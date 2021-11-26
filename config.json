@@ -1,0 +1,21 @@
+{
+  "main": "Fairies.sol",
+  "deploy": "",
+  "framework": "truffle-docker",
+  "npmClient": "yarn",
+  "compilers": {
+    "truffle": "v5.4.3",
+    "solc": "0.8.6",
+    "evmVersion": "istanbul",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    }
+  },
+  "linter": "solhint",
+  "editor": {
+    "fontFamily": "Fira Code",
+    "fontSize": "13px",
+    "ligatures": true
+  }
+}
